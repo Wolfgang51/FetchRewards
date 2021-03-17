@@ -1,5 +1,9 @@
 package com.example.fetchrewards;
 
+import com.example.fetchrewards.models.Payer;
+import com.example.fetchrewards.models.Points;
+import com.example.fetchrewards.models.Transaction;
+import com.example.fetchrewards.service.internal.FetchRewardsImpl;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

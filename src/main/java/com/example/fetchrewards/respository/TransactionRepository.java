@@ -1,5 +1,6 @@
-package com.example.fetchrewards;
+package com.example.fetchrewards.respository;
 
+import com.example.fetchrewards.models.Transaction;
 import java.util.List;
 import javax.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;

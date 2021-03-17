@@ -1,4 +1,4 @@
-package com.example.fetchrewards;
+package com.example.fetchrewards.models;
 
 
 import lombok.Getter;

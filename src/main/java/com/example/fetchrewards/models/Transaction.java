@@ -1,4 +1,4 @@
-package com.example.fetchrewards;
+package com.example.fetchrewards.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.util.Date;

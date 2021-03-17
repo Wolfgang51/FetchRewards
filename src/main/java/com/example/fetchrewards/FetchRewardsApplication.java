@@ -6,24 +6,14 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 
-@SpringBootApplication
+@SpringBootApplication @ComponentScan(basePackages = {"com.example.fetchrewards", "com.example.fetchrewards.controller"} )
 public class FetchRewardsApplication {
 
   private static final Logger logger = LoggerFactory.getLogger(FetchRewardsApplication.class);
 
   public static void main(String[] args) {
     SpringApplication.run(FetchRewardsApplication.class, args);
-  }
-
-  @Bean
-  CommandLineRunner initDatabase(TransactionRepository repository) {
-
-    return args -> {
-//			logger.info("Preloading " + repository.save(new Transaction("oldest", 1000, new Date())));
-//			logger.info("Preloading " + repository.save(new Transaction("older", 1000, new Date())));
-//			logger.info("Preloading " + repository.save(new Transaction("new", 1000, new Date())));
-    };
-
   }
 }

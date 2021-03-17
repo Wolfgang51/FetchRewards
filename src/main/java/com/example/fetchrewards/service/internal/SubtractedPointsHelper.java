@@ -1,5 +1,6 @@
-package com.example.fetchrewards;
+package com.example.fetchrewards.service.internal;
 
+import com.example.fetchrewards.models.Payer;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

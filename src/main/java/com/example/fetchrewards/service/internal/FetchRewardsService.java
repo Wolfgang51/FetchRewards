@@ -1,5 +1,8 @@
-package com.example.fetchrewards;
+package com.example.fetchrewards.service.internal;
 
+import com.example.fetchrewards.models.Payer;
+import com.example.fetchrewards.models.Points;
+import com.example.fetchrewards.models.Transaction;
 import java.util.List;
 
 public interface FetchRewardsService {

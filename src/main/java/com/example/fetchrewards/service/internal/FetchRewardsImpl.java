@@ -1,5 +1,10 @@
-package com.example.fetchrewards;
+package com.example.fetchrewards.service.internal;
 
+import com.example.fetchrewards.respository.PayerRepository;
+import com.example.fetchrewards.respository.TransactionRepository;
+import com.example.fetchrewards.models.Payer;
+import com.example.fetchrewards.models.Points;
+import com.example.fetchrewards.models.Transaction;
 import java.util.List;
 import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
