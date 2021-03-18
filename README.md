@@ -10,17 +10,38 @@ The coding exercise includes
 
 ### Usage
 
-#### Windows
+#### Start App
+
+##### Windows
 
 In the root directory of the project run...
 ```
 gradlew.bat bootRun
 ```
 
-#### Ubuntu / macOS
+##### Ubuntu / macOS
 
 ```
 ./gradlew bootRun
+```
+
+##### Call Endpoint
+
+###### Sample Calls
+
+REWARD POINTS
+```
+curl -d  '{ "payer": "DANNON", "points": 1000, "timestamp": "2020-11-02T14:00:00Z" }' -H 'Content-Type: application/json' localhost:8080/payer/transaction
+```
+
+SPEND POINTS
+```
+curl -d  '{ "points": 5000 }' -H 'Content-Type: application/json' localhost:8080/consumer/points
+```
+
+GET POINT BALANCES REWARDED BY FETCH PARTICIPANTS
+```
+curl -d  localhost:8080/payer/balances
 ```
 
 ### "Roadmap" 
