@@ -49,6 +49,7 @@ curl -d  localhost:8080/payer/balances
 - Additional tests for edge cases as well as a larger coverage at the unit layer. 
 - Swagger documentation as well as thorough logging
 - Consider what to return if a consumer spends more points than are rewarded to them
+- Add authentication as well as rate limiting
 
 ### Note
 
