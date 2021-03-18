@@ -1,6 +1,8 @@
 # Fetch Rewards Coding Exercise - Backend Software Engineering
 
-The coding exercise consists of Fetch Rewards participants being able to award points to a consumer and for that consumer to spend points awarded to them.
+The coding exercise includes 
+1. The ability for Fetch Rewards participating companies to reward points to consumers.
+2. The ability for consumers to spend points awarded to them.
 
 ### Prerequisites
 
