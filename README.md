@@ -23,7 +23,7 @@ gradlew.bat bootRun
 ./gradlew bootRun
 ```
 
-##### REST API
+### REST API
 
 REWARD POINTS
 
