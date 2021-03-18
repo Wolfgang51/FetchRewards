@@ -60,8 +60,9 @@ public class FetchRewardsImpl implements FetchRewardsService {
     }
   }
 
-  /** This method will add awarded points to a given Fetch Rewards participating companies balance as well as saving
-   * it in the overall transaction repo.
+  /**
+   * This method will add awarded points to a given Fetch Rewards participating companies balance as
+   * well as saving it in the overall transaction repo.
    *
    * @param awardedPoints
    * @return the awarded points that were sent.
