@@ -30,16 +30,26 @@ gradlew.bat bootRun
 ###### Sample Calls
 
 REWARD POINTS
+
+`POST /payer/transaction`
+
 ```
 curl -d  '{ "payer": "DANNON", "points": 1000, "timestamp": "2020-11-02T14:00:00Z" }' -H 'Content-Type: application/json' localhost:8080/payer/transaction
 ```
 
 SPEND POINTS
+
+-- Request --
+`POST /consumer/points`
+
 ```
 curl -d  '{ "points": 5000 }' -H 'Content-Type: application/json' localhost:8080/consumer/points
 ```
 
 GET POINT BALANCES REWARDED BY FETCH PARTICIPANTS
+
+`/payer/balances`
+
 ```
 curl -d  localhost:8080/payer/balances
 ```
