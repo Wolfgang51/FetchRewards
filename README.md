@@ -10,24 +10,20 @@ The coding exercise includes
 
 ### Usage
 
-#### Start App
-
-##### Windows
+#### Windows
 
 In the root directory of the project run...
 ```
 gradlew.bat bootRun
 ```
 
-##### Ubuntu / macOS
+#### Ubuntu / macOS
 
 ```
 ./gradlew bootRun
 ```
 
-##### Call Endpoint
-
-###### Sample Calls
+##### REST API
 
 REWARD POINTS
 
