@@ -1,4 +1,4 @@
-package com.example.fetchrewards.service.internal;
+package com.example.fetchrewards.service;
 
 import com.example.fetchrewards.models.Payer;
 import com.example.fetchrewards.models.Points;

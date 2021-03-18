@@ -1,4 +1,4 @@
-package com.example.fetchrewards.service.internal;
+package com.example.fetchrewards.service;
 
 import com.example.fetchrewards.models.Payer;
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import lombok.Getter;
 
-public class SubtractedPointsHelper {
+public class SpentPointsHelper {
 
   @Getter
   Map<String, Integer> subtractedPoints = new HashMap<>();

@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
-@SpringBootApplication @ComponentScan(basePackages = {"com.example.fetchrewards", "com.example.fetchrewards.controller"} )
+@SpringBootApplication(scanBasePackages = "com.example.fetchrewards")
 public class FetchRewardsApplication {
 
   private static final Logger logger = LoggerFactory.getLogger(FetchRewardsApplication.class);
