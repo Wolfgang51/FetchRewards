@@ -28,3 +28,7 @@ gradlew.bat bootRun
 - Additional tests for edge cases as well as a larger coverage at the unit layer. 
 - Swagger documentation as well as thorough logging
 - Consider what to return if a consumer spends more points than are rewarded to them
+
+### Note
+
+I made the decision to use Spring Boot since I haven't used it before and wanted to take the oppurtunity to learn it while also doing the assesment. 
